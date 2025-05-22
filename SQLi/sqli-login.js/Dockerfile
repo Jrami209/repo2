@@ -1,5 +1,5 @@
 #PHP Apache setup
-FROM node:23.9.0
+FROM node:23.11.1
 
 #Install and update system dependencies
 RUN apt update -y && apt install -y supervisor npm
